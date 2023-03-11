@@ -1,0 +1,64 @@
+@media screen and (max-width: 768px) {
+    .container {
+      padding: 0 10px;
+    }
+  }
+.hero{
+  min-height: 100vh;
+  background-image: url('assets/suci-melia-nirmalasari-QFEhwobJeIc-unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+.my-table{
+  background-color: rgba(213, 207, 207, 0.521);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  top: 100px;
+  font-family: 'poppins', sans-serif;
+  
+}
+.my-th,.my-td{
+  border: 2px solid black;
+  padding-top: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  vertical-align: middle;
+  text-align: center;
+  font-weight: 900;
+}
+.my-th{
+  font-size: 24px;
+}
+.navbar-brand,
+.navbar-nav .nav-link,
+.form-control {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  color: #fff;
+}
+span{
+  color: red;
+}
+.hero-content{
+  text-align: justify;
+  margin: auto;
+  padding: 20px;
+  line-height: 1.5;
+  max-width: 800px;
+}
+.hero-pict{
+  top: 20px;
+  text-align: center;
+}
+img{
+  display: inline-block;
+}
+
+
+
